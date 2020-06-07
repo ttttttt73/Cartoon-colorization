@@ -25,20 +25,24 @@ opencv-python==4.2.0
 ## STEP
 
 
-Please donwload, unzip, and place the mask_rcnn_coco.h5 in :
+Please donwload, unzip, and place the mask_rcnn_coco.h5 in :   
 pre_project/mask r-cnn _ pix2pix dataset/
 
-Please download and place the annotations in :
+
+Please download and place the annotations in :   
 pre_project/coco/annotations/
 
-modify your directory path:
+
+modify your directory path:   
 coco.py
 line 114 → annotation's path
 
-modify your directory path:
+
+modify your directory path:   
 Mask R-CNN_Making_dataset_Background.ipynb
 cell 13 → target_directory(output directory)
 cell 14 → glob(input image's path)
+
 
 ## References
 
