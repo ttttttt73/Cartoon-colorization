@@ -37,16 +37,6 @@ Please download car dataset and place in :
 pre_project/car_dataset
 
 
-modify your directory path:   
-coco.py
-line 114 → annotation's path
-
-
-modify your directory path:   
-Mask R-CNN_Making_dataset_Background.ipynb
-cell 13 → target_directory(output directory)   
-cell 14 → glob(input image's path)
-
 
 ## References
 
