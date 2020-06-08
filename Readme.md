@@ -22,7 +22,34 @@ jupyter
 
 opencv-python==4.2.0
 
+## STEP
+
+
+Please donwload and place the [mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) in :   
+pre_project/mask r-cnn _ pix2pix dataset/
+
+
+Please download, unzip and place the [annotations](http://images.cocodataset.org/annotations/annotations_trainval2014.zip) in :   
+pre_project/coco/annotations/
+
+
+Please download car dataset and place in :   
+pre_project/car_dataset
+
+
+modify your directory path:   
+coco.py
+line 114 → annotation's path
+
+
+modify your directory path:   
+Mask R-CNN_Making_dataset_Background.ipynb
+cell 13 → target_directory(output directory)   
+cell 14 → glob(input image's path)
+
+
 ## References
 
 [Mask-RCNN](https://github.com/matterport/Mask_RCNN)
+
 [pix2pix](https://phillipi.github.io/pix2pix/)
