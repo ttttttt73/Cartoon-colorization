@@ -37,16 +37,32 @@ Please download car dataset and place in :
 pre_project/car_dataset
 
 
-## Create car/background datasets
+Please download car dataset and place in :   
+Mask-RCNN-Shiny/car_dataset
 
+
+## Create car/background datasets
+'''
 >cd Mask-RCNN-Shiny   
 >jupyter notebook   
 >run foreground.ipynb # extraction foreground   
 >run background.ipynb # extraction background   
+'''   
+## Train
+'''
+python main.py --phase train --dataset_name='dataset_name'
 
+'''
+
+## Test
+'''
+python main.py --phase test
+'''
 
 ## References
 
-[Mask-RCNN](https://github.com/matterport/Mask_RCNN)
-
-[pix2pix](https://phillipi.github.io/pix2pix/)
+[Mask-RCNN](https://github.com/matterport/Mask_RCNN)   
+[Mask-RCNN](https://github.com/huuuuusy/Mask-RCNN-Shiny)   
+[pix2pix](https://phillipi.github.io/pix2pix/)   
+[pix2pix by yenchenlin](https://github.com/yenchenlin/pix2pix-tensorflow)   
+[pix2pix (keras)](https://github.com/eriklindernoren/Keras-GAN/tree/master/pix2pix)   
