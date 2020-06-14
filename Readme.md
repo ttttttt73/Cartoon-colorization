@@ -41,14 +41,14 @@ Please download car dataset and place in :
 Mask-RCNN-Shiny/car_dataset
 
 
-## Create car/background datasets
+## Create car/background datasets   
 '''sh
 >cd Mask-RCNN-Shiny   
 >jupyter notebook   
 >run foreground.ipynb # extraction foreground   
 >run background.ipynb # extraction background   
 '''   
-## Train
+## Train   
 '''sh
 python main.py --phase train --dataset_name='dataset_name'
 
