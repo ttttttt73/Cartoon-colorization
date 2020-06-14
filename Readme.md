@@ -43,7 +43,7 @@ Mask-RCNN-Shiny/car_dataset
 
 ## Create car/background datasets   
 
-'''sh
+'''sh   
 >cd Mask-RCNN-Shiny   
 >jupyter notebook   
 >run foreground.ipynb # extraction foreground   
@@ -52,14 +52,14 @@ Mask-RCNN-Shiny/car_dataset
 
 ## Train   
 
-'''sh
+'''sh   
 python main.py --phase train --dataset_name='dataset_name'
 
 '''
 
 ## Test
 
-'''sh
+'''sh   
 python main.py --phase test
 '''
 
