@@ -25,19 +25,7 @@ opencv-python==4.2.0
 ## STEP
 
 
-Please donwload and place the [mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) in :   
-pre_project/mask r-cnn _ pix2pix dataset/
-
-
-Please download, unzip and place the [annotations](http://images.cocodataset.org/annotations/annotations_trainval2014.zip) in :   
-pre_project/coco/annotations/
-
-
-Please download car dataset and place in :   
-pre_project/car_dataset
-
-
-Please download car dataset and place in :   
+Please download [car dataset](https://drive.google.com/file/d/1Jw2_ZjYtZRXqkQNwdOGzVIrKI4DDTGyi/view?usp=sharing) and place in :   
 Mask-RCNN-Shiny/car_dataset
 
 
