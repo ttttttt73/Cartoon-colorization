@@ -37,6 +37,13 @@ Please download car dataset and place in :
 pre_project/car_dataset
 
 
+# Create car/background datasets
+
+cd Mask-RCNN-Shiny   
+jupyter notebook   
+run foreground # extraction foreground   
+run background # extraction background   
+
 
 ## References
 
