@@ -50,12 +50,13 @@ Mask-RCNN-Shiny/car_dataset
 
 ## Train   
 
->cd pre_project/pix2pix/
+>copy to /pre_project/pix2pix/datasets/'dataset_name'
+>cd pre_project/pix2pix/   
 >python main.py --phase train --dataset_name='dataset_name'
 
 ## Test
 
->cd pre_project/pix2pix/
+>cd pre_project/pix2pix/   
 >python main.py --phase test
 
 ## References
